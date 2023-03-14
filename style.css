@@ -1,0 +1,145 @@
+/* Genel Stiller */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+    background-color: #09a5b0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+
+/* Header */
+.showcase {
+    background-image: url('images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.showcase-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.showcase h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.showcase p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.showcase .btn {
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.showcase .btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Oyunlar */
+.games {
+    padding: 50px 0;
+}
+
+.game {
+    margin-bottom: 50px;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+}
+
+.game h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.game p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.game .btn {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.game .btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #09a5b0;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

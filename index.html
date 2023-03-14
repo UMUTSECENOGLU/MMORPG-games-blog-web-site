@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oyun Blogu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">MMORPG GAMES</a>
+      </div>
+      <ul>
+        <li><a href="#">Oyunlar</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Giriş Yap</a></li>
+        <li><a href="#">Kayıt Ol</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="showcase">
+    <div class="container">
+      <h1>MMORPG GAMES</h1>
+      <p>En Son Eklenen Oyunlar ve Haberler</p>
+      <a href="#" class="btn">Tüm Oyunları Görüntüle</a>
+    </div>
+  </header>
+  
+  <!-- Oyunlar Bölümü -->
+  <section class="games">
+    <div class="container">
+      <h2>Oyunlar</h2>
+      <div class="game">
+        <img src="images/blackdesert.jpg" alt="Oyun Resmi">
+        <h3>Black Desert Online</h3>
+        <p>Kısa Açıklama</p>
+        <a href="#" class="btn">Devamını Oku</a>
+      </div>
+      <div class="game">
+        <img src="images/lostark.jpg" alt="Oyun Resmi">
+        <h3>Lost Ark</h3>
+        <p>Kısa Açıklama</p>
+        <a href="#" class="btn">Devamını Oku</a>
+      </div>
+      <div class="game">
+        <img src="images/newworld.jpg" alt="Oyun Resmi">
+        <h3>New World</h3>
+        <p>Kısa Açıklama</p>
+        <a href="#" class="btn">Devamını Oku</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="forum">
+    <h2>Forum</h2>
+    <form id="message-form">
+      <input type="text" id="message-input" placeholder="Mesajınızı buraya yazın...">
+      <button type="submit">Gönder</button>
+    </form>
+    <ul id="message-list"></ul>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 MMORPG GAMES. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
